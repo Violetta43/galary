@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: gray;
+}
+main{
+	background-color: white;
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px blue;
+}
+.photo{
+	width:calc(50% - 40px);
+	height:calc((35vw - 40px)/16 * 9);
+	margin: 10px;
+	background-color: orange;
+	background-position: center;
+	background-size: cover;
+	border: 6px solid gray;
+	border-radius: 59px;
+}
+.photo:hover{
+	transform: rotate(4deg) scale(1.08) 
+}
+h1{
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+}
+.photo1{
+	background-image: url(../img/img1.jpg);
+}
+.photo2{
+	background-image: url(../img/img2.jpeg);
+}
+.photo3{
+
+background-image: url(../img/img3.jpg);
+}
+.photo4{
+	background-image: url(../img/img5.jpg);
+}
+td{
+	border: 3px solid blue;
+	font-size: 34px;
+	padding: 65px;
+	color: red;
+	text-align: center;
+	border-radius: 64px;
+}
+table, .spisok{
+	width: 70% ;
+	margin: auto;
+}
+.spisok{
+	font-size: 30px;
+}
+li{
+	color: yellow;
+	border: 4px groove yellow;
+}
